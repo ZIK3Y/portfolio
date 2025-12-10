@@ -1,0 +1,21 @@
+/* Styles pour le footer fixe */
+footer.fixed-bottom {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+}
+
+/* Ajouter un padding au body pour éviter que le contenu soit caché par le footer */
+body {
+  padding-bottom: 200px; /* Ajuster selon la hauteur du footer */
+}
+
+footer a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+@import url("./Colors.css");
+
+.nav-bg {
+    background-color: var(--navbar-background);
+}
+
+.nav-link {
+    color: var(--navbar-text-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--navbar-text-color-hover);
+}
+

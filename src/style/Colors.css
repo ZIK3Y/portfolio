@@ -1,0 +1,9 @@
+html {
+    --background: #212529;
+    --navbar-background: blue;
+    --navbar-text: white;
+    --navbar-text-hover: gray;
+    --text-primary:white;
+    --text-secondary:white;
+
+}
