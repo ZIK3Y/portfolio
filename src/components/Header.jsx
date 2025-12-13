@@ -25,22 +25,27 @@ function Header() {
           >
             <ul className="navbar-nav navbar-nav-scroll text-white nav-bg navbar-list p-2 rounded-pill ms-auto gap-4 mt-3">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="#about">
                   À propos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#skills">
                   Compétences
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#experience">
+                  Expérience
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#projects">
                   Projets
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>

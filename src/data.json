@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "name": "Vincent Roure",
+    "subtitle": "Junior Game Developer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci asperiores nihil neque atque voluptates recusandae modi, velit maiores! Vel ea doloremque porro id eius perspiciatis sequi vitae tenetur nesciunt."
+  },
+  "about": {
+    "name": "Vincent Roure",
+    "subtitle": "Junior Game Developer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci asperiores nihil neque atque voluptates recusandae modi, velit maiores! Vel ea doloremque porro id eius perspiciatis sequi vitae tenetur nesciunt.",
+    "photo": ""
+  },
+  "skills": [
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
+      "category": "Jeux vidéos",
+      "title": "Unity"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+      "category": "Jeux vidéos",
+      "title": "C#"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg",
+      "category": "Jeux vidéos",
+      "title": "Unreal Engine"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      "category": "Jeux vidéos",
+      "title": "C++"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
+      "category": "Jeux vidéos",
+      "title": "Blender"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "category": "Développement Web",
+      "title": "HTML"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "category": "Développement Web",
+      "title": "CSS"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "category": "Développement Web",
+      "title": "JavaScript"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "category": "Développement Web",
+      "title": "TypeScript"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "category": "Développement Web",
+      "title": "React"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "category": "Développement Web",
+      "title": "PHP"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "category": "Développement Web",
+      "title": "SQL"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+      "category": "Développement Web",
+      "title": "Spring Boot"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "category": "Développement Web",
+      "title": "Figma"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+      "category": "Graphiques",
+      "title": "Photoshop"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
+      "category": "Graphiques",
+      "title": "Illustrator"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg",
+      "category": "Graphiques",
+      "title": "Premiere Pro"
+    },
+    {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/indesign/indesign-plain.svg",
+      "category": "Graphiques",
+      "title": "InDesign"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Développeur en technologies immersives - Alternance",
+      "company": "Institut National de la Santé et de la Recherche Médicale",
+      "description": "Conception et développement de Serious Game pour la formation de personnel médical",
+      "duration": "Septembre 2025 - Aujourd'hui",
+      "siteIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyGRZrb_2LY5lp9bw50osU13hq-GoSU-eeMg&s"
+    },
+    {
+      "title": "Développeur Full-Stack et XR - Stage",
+      "company": "Institut National de la Santé et de la Recherche Médicale",
+      "description": "Optimistaion du site et développement d'une application pour la formation à l'utilisation d'une CEC",
+      "duration": "Mai 2025 - Juillet 2025",
+      "siteIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyGRZrb_2LY5lp9bw50osU13hq-GoSU-eeMg&s"
+    },
+    {
+      "title": "Agent informatique - Stage",
+      "company": "CMI Systèmes",
+      "description": "Rédactions de procédures, cartographies réseaux",
+      "duration": "Juin 2024 - Juillet 2024",
+      "siteIcon": "./logo_cmis.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Deuce Striker",
+      "description": "",
+      "category": "Jeux vidéos",
+      "image": "",
+      "link": "https://github.com/MatteoBaldinetti/Deuce-Striker"
+    }
+  ]
+}
