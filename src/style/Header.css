@@ -1,5 +1,13 @@
 @import url("./Colors.css");
 
+header {
+    background-color: transparent;
+}
+
+hero {
+    height: 100vh;
+}
+
 .nav-bg {
     background-color: var(--navbar-background);
 }

@@ -3,7 +3,7 @@ import "../style/Header.css";
 function Header() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg mt-2">
+      <nav className="navbar navbar-expand-lg mx-4 mt-2 fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src="./vite.svg" alt="logo site" width="30" height="24" />
@@ -23,7 +23,7 @@ function Header() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav navbar-nav-scroll text-white nav-bg navbar-list p-2 rounded-pill ms-auto gap-4">
+            <ul className="navbar-nav navbar-nav-scroll text-white nav-bg navbar-list p-2 rounded-pill ms-auto gap-4 mt-3">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">
                   À propos
