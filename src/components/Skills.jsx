@@ -11,7 +11,7 @@ function Skills({ data }) {
   }, {});
 
   return (
-    <section id="skills" className="py-5 text-center">
+    <section id="skills" className="py-5 text-center text-white">
       <div className="container">
         <h2>Compétences</h2>
         {Object.keys(groupedSkills).map(category => (

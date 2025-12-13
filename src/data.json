@@ -77,29 +77,29 @@
       "title": "Spring Boot"
     },
     {
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
       "category": "Développement Web",
       "title": "Figma"
     },
     {
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
       "category": "Graphiques",
       "title": "Photoshop"
     },
     {
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg",
       "category": "Graphiques",
       "title": "Illustrator"
     },
     {
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg",
       "category": "Graphiques",
       "title": "Premiere Pro"
     },
     {
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/indesign/indesign-plain.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg",
       "category": "Graphiques",
-      "title": "InDesign"
+      "title": "After Effects"
     }
   ],
   "experience": [

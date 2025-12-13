@@ -1,9 +1,55 @@
-html {
-    --background: #212529;
-    --navbar-background: blue;
-    --navbar-text: white;
-    --navbar-text-hover: gray;
-    --text-primary:white;
-    --text-secondary:white;
+:root {
+  /* Palette de couleurs sobre et élégante */
+  --color-bg-primary: #0a0e12;
+  --color-bg-secondary: #151a21;
+  --color-bg-tertiary: #1e2530;
+  --color-bg-card: #1a1f28;
 
+  /* Accents */
+  --color-accent-primary: #c9a961;
+  --color-accent-secondary: #5b8fb9;
+  --color-accent-hover: #d4b76e;
+
+  /* Texte */
+  --color-text-primary: #e8eaed;
+  --color-text-secondary: #9aa0a6;
+  --color-text-muted: #5f6368;
+
+  /* Bordures et séparateurs */
+  --color-border: #2d3748;
+  --color-border-light: #3a4556;
+
+  /* Ombres */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-accent: 0 4px 16px rgba(201, 169, 97, 0.15);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Espacements */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 5rem;
+
+  /* Border radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+/* Variables Bootstrap compatibles */
+html {
+  --background: var(--color-bg-primary);
+  --navbar-background: var(--color-bg-secondary);
+  --navbar-text: var(--color-text-primary);
+  --navbar-text-hover: var(--color-accent-primary);
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
 }

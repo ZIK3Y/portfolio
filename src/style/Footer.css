@@ -1,16 +1,33 @@
-/* Styles pour le footer fixe */
-footer.fixed-bottom {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1030;
+@import url("./Colors.css");
+
+footer {
+    background-color: var(--color-bg-secondary) !important;
+    border-top: 1px solid var(--color-border);
+}
+
+footer h5 {
+    color: var(--color-accent-primary);
+    font-weight: 600;
 }
 
 footer a {
-  text-decoration: none;
-  transition: opacity 0.3s ease;
+    text-decoration: none;
+    color: var(--color-text-secondary) !important;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 footer a:hover {
-  opacity: 0.8;
+    color: var(--color-accent-primary) !important;
+    transform: translateX(4px);
+}
+
+footer a i {
+    font-size: 1.2rem;
+}
+
+footer p {
+    color: var(--color-text-muted);
 }
