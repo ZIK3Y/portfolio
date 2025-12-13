@@ -128,10 +128,17 @@
   "projects": [
     {
       "title": "Deuce Striker",
-      "description": "",
+      "description": "Jeu en réalité virtuelle de Tennis. (Prototype UQAC)",
       "category": "Jeux vidéos",
-      "image": "",
+      "image": "https://media.discordapp.net/attachments/1399473344985829539/1412083632780349602/image.jpg?ex=693ecb5d&is=693d79dd&hm=31ac1cd24e65dd5ad28ab794ed6bf912499b6d0079fb2830c4fbbe8cd8394efe&=&format=webp&width=928&height=919",
       "link": "https://github.com/MatteoBaldinetti/Deuce-Striker"
+    }, 
+    {
+      "title": "TXLFORMA",
+      "description": "Projet de site de formation",
+      "category": "Développement Web",
+      "image": "./smallLogo.webp",
+      "link": "https://github.com/MatteoBaldinetti/SAE-501_Synapse"
     }
   ]
 }
