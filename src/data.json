@@ -1,14 +1,12 @@
 {
   "hero": {
     "name": "Vincent Roure",
-    "subtitle": "Junior Game Developer",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci asperiores nihil neque atque voluptates recusandae modi, velit maiores! Vel ea doloremque porro id eius perspiciatis sequi vitae tenetur nesciunt."
+    "subtitle": "Junior Game Developer"
   },
   "about": {
     "name": "Vincent Roure",
     "subtitle": "Junior Game Developer",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci asperiores nihil neque atque voluptates recusandae modi, velit maiores! Vel ea doloremque porro id eius perspiciatis sequi vitae tenetur nesciunt.",
-    "photo": ""
+    "description": "Junior Game Developer passionné par la création d'expériences interactives, spécialisé en développement de jeux vidéo. Actuellement en 3ᵉ année de BUT MMI, j'ai acquis des compétences solides en programmation orientée objet (C++, C#, Python), Game Design, Unity et Unreal Engine 5. Ouvert aux projets innovants mêlant technologie, gameplay et immersion."
   },
   "skills": [
     {

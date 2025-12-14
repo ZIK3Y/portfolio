@@ -4,7 +4,6 @@ function Footer() {
   return (
     <footer id="contact" className="urban-footer text-white w-100 p-5">
       <div className="container-fluid">
-        <div className="footer-divider"></div>
         <div className="row">
           <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-2 text-md-start d-flex flex-column gap-3">
             <h5 className="footer-title">Me contacter :</h5>

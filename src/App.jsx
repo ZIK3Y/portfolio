@@ -1,5 +1,3 @@
-import { useState } from "react";
-import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -14,8 +12,6 @@ import "./style/PixelArt.css";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       {/* Rain Effect */}
@@ -31,11 +27,10 @@ function App() {
       <div className="crt-effect">
         <Header />
         <div className="hero container-fluid bg-dark text-white vh-100 d-flex flex-column" style={{overflowY: 'auto'}}>
-          <div className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-5">
+          <div className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-5" style={{position: 'relative', zIndex: 10}}>
             <div>
-              <h1 className="pixel-text">{data.hero.name}</h1>
-              <h3 className="mono-text">{data.hero.subtitle}</h3>
-              <h4 className="mono-text">{data.hero.description}</h4>
+              <h1 className="pixel-text" style={{fontSize: '4rem'}}>{data.hero.name}</h1>
+              <h2 className="mono-text" style={{fontSize: '2.5rem'}}>{data.hero.subtitle}</h2>
             </div>
           </div>
           <div className="text-center pb-3">
