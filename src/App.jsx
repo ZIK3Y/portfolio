@@ -10,7 +10,7 @@ import data from "./data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./style/JetSetRadio.css";
+import "./style/PixelArt.css";
 import "./App.css";
 
 function App() {
@@ -18,24 +18,36 @@ function App() {
 
   return (
     <>
-      <Header />
-      <div className="hero container-fluid bg-dark text-white vh-100 d-flex flex-column" style={{overflowY: 'auto'}}>
-        <div className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-5">
-          <div>
-            <h1>{data.hero.name}</h1>
-            <h3>{data.hero.subtitle}</h3>
-            <h4>{data.hero.description}</h4>
+      {/* Rain Effect */}
+      <div className="rain-container">
+        {[...Array(20)].map((_, i) => (
+          <div key={i} className="rain"></div>
+        ))}
+      </div>
+      
+      {/* Scanline Effect */}
+      <div className="scanlines"></div>
+      
+      <div className="crt-effect">
+        <Header />
+        <div className="hero container-fluid bg-dark text-white vh-100 d-flex flex-column" style={{overflowY: 'auto'}}>
+          <div className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-5">
+            <div>
+              <h1 className="pixel-text">{data.hero.name}</h1>
+              <h3 className="mono-text">{data.hero.subtitle}</h3>
+              <h4 className="mono-text">{data.hero.description}</h4>
+            </div>
+          </div>
+          <div className="text-center pb-3">
+            <i className="bi bi-chevron-down scroll-indicator blink"></i>
           </div>
         </div>
-        <div className="text-center pb-3">
-          <i className="bi bi-chevron-down scroll-indicator"></i>
-        </div>
+        <About data={data.about} />
+        <Skills data={data.skills} />
+        <Experience data={data.experience} />
+        <Projects data={data.projects} />
+        <Footer />
       </div>
-      <About data={data.about} />
-      <Skills data={data.skills} />
-      <Experience data={data.experience} />
-      <Projects data={data.projects} />
-      <Footer />
     </>
   );
 }

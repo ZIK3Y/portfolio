@@ -1,70 +1,64 @@
 :root {
-  /* ===== JET SET RADIO COLOR PALETTE ===== */
+  /* ===== PIXEL ART MONOCHROME PALETTE ===== */
   
-  /* Primary Neon Colors */
-  --color-bg-primary: #0A0E27;
-  --color-bg-secondary: #1A0B2E;
-  --color-bg-tertiary: #2D1B4E;
-  --color-bg-card: #1E1535;
-
-  /* Vibrant Accents */
-  --color-accent-primary: #00D9FF;    /* Electric Cyan */
-  --color-accent-secondary: #FF006E;  /* Hot Magenta */
-  --color-accent-tertiary: #8FFF00;   /* Lime Green */
-  --color-accent-hover: #FFD60A;      /* Bright Yellow */
-
-  /* Additional Vibrant Colors */
-  --color-orange: #FF6B00;
-  --color-purple: #B537F2;
-  --color-lime: #8FFF00;
-  --color-cyan: #00D9FF;
-  --color-magenta: #FF006E;
-  --color-yellow: #FFD60A;
-
+  /* Pure Black & White */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  
+  /* Grays - Pixel Perfect Shades */
+  --color-gray-darkest: #0A0A0A;
+  --color-gray-darker: #1A1A1A;
+  --color-gray-dark: #2A2A2A;
+  --color-gray-medium: #606060;
+  --color-gray-light: #808080;
+  --color-gray-lighter: #C0C0C0;
+  --color-gray-lightest: #E0E0E0;
+  
+  /* Background Colors */
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0A0A0A;
+  --color-bg-tertiary: #1A1A1A;
+  --color-bg-card: #0F0F0F;
+  
   /* Text Colors */
   --color-text-primary: #FFFFFF;
-  --color-text-secondary: #E0E0E0;
-  --color-text-muted: #A0A0A0;
-
-  /* Borders */
-  --color-border: #3D2A5C;
-  --color-border-light: #5A3F7E;
-
-  /* Neon Glows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
-  --shadow-accent: 0 0 20px rgba(0, 217, 255, 0.5);
-  --shadow-neon-cyan: 0 0 10px var(--color-cyan), 0 0 20px var(--color-cyan);
-  --shadow-neon-magenta: 0 0 10px var(--color-magenta), 0 0 20px var(--color-magenta);
-
+  --color-text-secondary: #C0C0C0;
+  --color-text-muted: #808080;
+  
+  /* Borders - Pixel Perfect */
+  --color-border: #FFFFFF;
+  --color-border-dark: #606060;
+  --color-border-light: #C0C0C0;
+  
+  /* Shadows - Pixelated */
+  --shadow-pixel-sm: 2px 2px 0 rgba(255, 255, 255, 0.1);
+  --shadow-pixel-md: 4px 4px 0 rgba(255, 255, 255, 0.15);
+  --shadow-pixel-lg: 6px 6px 0 rgba(255, 255, 255, 0.2);
+  
   /* Transitions */
-  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-  /* Spacing */
-  --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 2rem;
-  --spacing-lg: 3rem;
-  --spacing-xl: 5rem;
-
-  /* Border Radius */
-  --radius-sm: 0.5rem;
-  --radius-md: 1rem;
-  --radius-lg: 1.5rem;
-  --radius-xl: 2rem;
-  --radius-pill: 50rem;
+  --transition-instant: 0s;
+  --transition-fast: 0.1s steps(4);
+  --transition-normal: 0.2s steps(8);
+  --transition-slow: 0.3s steps(12);
+  
+  /* Spacing - 8px Grid */
+  --spacing-xs: 0.5rem;   /* 8px */
+  --spacing-sm: 1rem;     /* 16px */
+  --spacing-md: 2rem;     /* 32px */
+  --spacing-lg: 3rem;     /* 48px */
+  --spacing-xl: 4rem;     /* 64px */
+  
+  /* Border Radius - None for pixel art */
+  --radius-none: 0;
+  --radius-pixel: 2px;
 }
 
 /* Bootstrap Compatible Variables */
 html {
   --background: var(--color-bg-primary);
-  --navbar-background: rgba(26, 11, 46, 0.8);
+  --navbar-background: var(--color-bg-secondary);
   --navbar-text: var(--color-text-primary);
-  --navbar-text-hover: var(--color-accent-primary);
+  --navbar-text-hover: var(--color-white);
   --text-primary: var(--color-text-primary);
   --text-secondary: var(--color-text-secondary);
 }

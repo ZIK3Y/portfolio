@@ -1,49 +1,29 @@
-/* ===== FOOTER - JET SET RADIO STYLE ===== */
+/* ===== FOOTER - PIXEL ART STYLE ===== */
 
 .urban-footer {
-  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+  background: var(--color-black);
   position: relative;
   overflow: hidden;
-}
-
-.urban-footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('C:/Users/Vinsko Dono/.gemini/antigravity/brain/5af1194e-7f50-4d9b-8fa7-90c23583ad53/graffiti_bg_1765718315074.png');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.05;
-  z-index: 0;
-}
-
-.urban-footer > * {
-  position: relative;
-  z-index: 1;
+  border-top: 2px solid var(--color-white);
 }
 
 /* Footer Divider */
 .footer-divider {
-  height: 6px;
-  background: var(--gradient-rainbow);
+  height: 4px;
+  background: var(--color-white);
   margin-bottom: 3rem;
-  border-radius: var(--radius-pill);
-  box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
-  animation: slideInLeft 0.8s ease-out;
+  box-shadow: 0 2px 0 var(--color-gray-dark);
 }
 
 /* Footer Title */
 .footer-title {
-  font-family: var(--font-bold);
-  font-size: 1.5rem;
-  color: var(--color-cyan);
+  font-family: var(--font-pixel);
+  font-size: 1.2rem;
+  color: var(--color-white);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  text-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
-  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
 }
 
 /* Footer Links */
@@ -53,53 +33,46 @@
   gap: 1rem;
   color: var(--color-text-secondary);
   text-decoration: none;
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-weight: 500;
   font-size: 1.1rem;
-  transition: all var(--transition-normal);
+  transition: all var(--transition-fast);
   position: relative;
   padding: 0.5rem 0;
 }
 
 .footer-link::before {
-  content: '';
+  content: '>';
   position: absolute;
-  left: -10px;
-  top: 50%;
-  width: 4px;
-  height: 0;
-  background: var(--gradient-primary);
-  transform: translateY(-50%);
-  transition: height var(--transition-normal);
-  border-radius: var(--radius-pill);
+  left: -15px;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  color: var(--color-white);
 }
 
 .footer-link:hover {
-  color: var(--color-cyan);
+  color: var(--color-white);
   transform: translateX(10px);
-  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
 }
 
 .footer-link:hover::before {
-  height: 100%;
+  opacity: 1;
 }
 
 /* Footer Icon */
 .footer-icon {
   font-size: 1.5rem;
-  color: var(--color-magenta);
-  transition: all var(--transition-bounce);
+  color: var(--color-gray-lighter);
+  transition: all var(--transition-fast);
 }
 
 .footer-link:hover .footer-icon {
-  color: var(--color-cyan);
-  transform: rotate(15deg) scale(1.2);
-  filter: drop-shadow(0 0 10px var(--color-cyan));
+  color: var(--color-white);
 }
 
 /* Footer Copyright */
 .footer-copyright {
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: 0.95rem;
   color: var(--color-text-muted);
   letter-spacing: 0.05em;
@@ -113,6 +86,10 @@
   
   .footer-link {
     justify-content: center;
+  }
+  
+  .footer-link::before {
+    left: -20px;
   }
   
   .footer-copyright {

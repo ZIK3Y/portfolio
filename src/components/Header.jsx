@@ -6,7 +6,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg mx-4 mt-2 fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="C:/Users/Vinsko Dono/.gemini/antigravity/brain/5af1194e-7f50-4d9b-8fa7-90c23583ad53/logo_graffiti_1765718345023.png" alt="VR Logo" width="50" height="50" style={{filter: 'drop-shadow(0 0 10px rgba(0, 217, 255, 0.6))'}} />
+            <img src="/pixel_logo.png" alt="VR Logo" width="40" height="40" />
           </a>
           <button
             className="navbar-toggler"
@@ -23,7 +23,7 @@ function Header() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav navbar-nav-scroll text-white nav-bg navbar-list p-2 rounded-pill ms-auto gap-4 mt-3">
+            <ul className="navbar-nav navbar-nav-scroll text-white nav-bg navbar-list px-4 py-2 ms-auto gap-4 mt-3">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#about">
                   À propos
