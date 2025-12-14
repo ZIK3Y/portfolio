@@ -1,53 +1,68 @@
 :root {
-  /* Palette de couleurs sobre et élégante */
-  --color-bg-primary: #0a0e12;
-  --color-bg-secondary: #151a21;
-  --color-bg-tertiary: #1e2530;
-  --color-bg-card: #1a1f28;
+  /* ===== JET SET RADIO COLOR PALETTE ===== */
+  
+  /* Primary Neon Colors */
+  --color-bg-primary: #0A0E27;
+  --color-bg-secondary: #1A0B2E;
+  --color-bg-tertiary: #2D1B4E;
+  --color-bg-card: #1E1535;
 
-  /* Accents */
-  --color-accent-primary: #c9a961;
-  --color-accent-secondary: #5b8fb9;
-  --color-accent-hover: #d4b76e;
+  /* Vibrant Accents */
+  --color-accent-primary: #00D9FF;    /* Electric Cyan */
+  --color-accent-secondary: #FF006E;  /* Hot Magenta */
+  --color-accent-tertiary: #8FFF00;   /* Lime Green */
+  --color-accent-hover: #FFD60A;      /* Bright Yellow */
 
-  /* Texte */
-  --color-text-primary: #e8eaed;
-  --color-text-secondary: #9aa0a6;
-  --color-text-muted: #5f6368;
+  /* Additional Vibrant Colors */
+  --color-orange: #FF6B00;
+  --color-purple: #B537F2;
+  --color-lime: #8FFF00;
+  --color-cyan: #00D9FF;
+  --color-magenta: #FF006E;
+  --color-yellow: #FFD60A;
 
-  /* Bordures et séparateurs */
-  --color-border: #2d3748;
-  --color-border-light: #3a4556;
+  /* Text Colors */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #E0E0E0;
+  --color-text-muted: #A0A0A0;
 
-  /* Ombres */
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-accent: 0 4px 16px rgba(201, 169, 97, 0.15);
+  /* Borders */
+  --color-border: #3D2A5C;
+  --color-border-light: #5A3F7E;
+
+  /* Neon Glows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-accent: 0 0 20px rgba(0, 217, 255, 0.5);
+  --shadow-neon-cyan: 0 0 10px var(--color-cyan), 0 0 20px var(--color-cyan);
+  --shadow-neon-magenta: 0 0 10px var(--color-magenta), 0 0 20px var(--color-magenta);
 
   /* Transitions */
-  --transition-fast: 0.2s ease;
-  --transition-normal: 0.3s ease;
-  --transition-slow: 0.5s ease;
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-  /* Espacements */
+  /* Spacing */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
   --spacing-lg: 3rem;
   --spacing-xl: 5rem;
 
-  /* Border radius */
-  --radius-sm: 0.375rem;
-  --radius-md: 0.75rem;
-  --radius-lg: 1rem;
-  --radius-xl: 1.5rem;
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-pill: 50rem;
 }
 
-/* Variables Bootstrap compatibles */
+/* Bootstrap Compatible Variables */
 html {
   --background: var(--color-bg-primary);
-  --navbar-background: var(--color-bg-secondary);
+  --navbar-background: rgba(26, 11, 46, 0.8);
   --navbar-text: var(--color-text-primary);
   --navbar-text-hover: var(--color-accent-primary);
   --text-primary: var(--color-text-primary);

@@ -6,7 +6,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg mx-4 mt-2 fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="./vite.svg" alt="logo site" width="30" height="24" />
+            <img src="C:/Users/Vinsko Dono/.gemini/antigravity/brain/5af1194e-7f50-4d9b-8fa7-90c23583ad53/logo_graffiti_1765718345023.png" alt="VR Logo" width="50" height="50" style={{filter: 'drop-shadow(0 0 10px rgba(0, 217, 255, 0.6))'}} />
           </a>
           <button
             className="navbar-toggler"

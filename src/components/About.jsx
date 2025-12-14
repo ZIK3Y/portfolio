@@ -1,17 +1,21 @@
 import React from 'react';
+import '../style/About.css';
 
 function About({ data }) {
   return (
     <section id="about" className="py-5 text-white">
       <div className="container">
-        <div className="row">
-          <div className="col-md-8">
-            <h2>{data.name}</h2>
-            <h3>{data.subtitle}</h3>
-            <p>{data.description}</p>
+        <h2>À Propos</h2>
+        <div className="row align-items-center">
+          <div className="col-md-8 order-md-1 order-2">
+            <h3 className="about-name">{data.name}</h3>
+            <h4 className="about-subtitle">{data.subtitle}</h4>
+            <p className="about-description">{data.description}</p>
           </div>
-          <div className="col-md-4">
-            <img src={data.photo} alt="Photo" className="img-fluid" />
+          <div className="col-md-4 order-md-2 order-1 mb-4 mb-md-0">
+            <div className="about-photo-frame">
+              <img src={data.photo} alt="Photo" className="img-fluid" />
+            </div>
           </div>
         </div>
       </div>

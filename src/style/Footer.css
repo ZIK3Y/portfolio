@@ -1,33 +1,122 @@
-@import url("./Colors.css");
+/* ===== FOOTER - JET SET RADIO STYLE ===== */
 
-footer {
-    background-color: var(--color-bg-secondary) !important;
-    border-top: 1px solid var(--color-border);
+.urban-footer {
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+  position: relative;
+  overflow: hidden;
 }
 
-footer h5 {
-    color: var(--color-accent-primary);
-    font-weight: 600;
+.urban-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('C:/Users/Vinsko Dono/.gemini/antigravity/brain/5af1194e-7f50-4d9b-8fa7-90c23583ad53/graffiti_bg_1765718315074.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05;
+  z-index: 0;
 }
 
-footer a {
-    text-decoration: none;
-    color: var(--color-text-secondary) !important;
-    transition: all var(--transition-fast);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.urban-footer > * {
+  position: relative;
+  z-index: 1;
 }
 
-footer a:hover {
-    color: var(--color-accent-primary) !important;
-    transform: translateX(4px);
+/* Footer Divider */
+.footer-divider {
+  height: 6px;
+  background: var(--gradient-rainbow);
+  margin-bottom: 3rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+  animation: slideInLeft 0.8s ease-out;
 }
 
-footer a i {
-    font-size: 1.2rem;
+/* Footer Title */
+.footer-title {
+  font-family: var(--font-bold);
+  font-size: 1.5rem;
+  color: var(--color-cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+  margin-bottom: 1rem;
 }
 
-footer p {
-    color: var(--color-text-muted);
+/* Footer Links */
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all var(--transition-normal);
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.footer-link::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 4px;
+  height: 0;
+  background: var(--gradient-primary);
+  transform: translateY(-50%);
+  transition: height var(--transition-normal);
+  border-radius: var(--radius-pill);
+}
+
+.footer-link:hover {
+  color: var(--color-cyan);
+  transform: translateX(10px);
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+.footer-link:hover::before {
+  height: 100%;
+}
+
+/* Footer Icon */
+.footer-icon {
+  font-size: 1.5rem;
+  color: var(--color-magenta);
+  transition: all var(--transition-bounce);
+}
+
+.footer-link:hover .footer-icon {
+  color: var(--color-cyan);
+  transform: rotate(15deg) scale(1.2);
+  filter: drop-shadow(0 0 10px var(--color-cyan));
+}
+
+/* Footer Copyright */
+.footer-copyright {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-title {
+    text-align: center;
+  }
+  
+  .footer-link {
+    justify-content: center;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
