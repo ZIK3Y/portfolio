@@ -100,6 +100,29 @@
       "title": "After Effects"
     }
   ],
+  "education": [
+    {
+      "degree": "Baccalauréat Général",
+      "school": "Lycée Camille Claudel - Pontault-Combault",
+      "description": "Spécialités Mathématiques, Sciences de l'ingénieur et Numérique et Sciences Informatiques",
+      "duration": "2020 - 2023",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO30sgPNduzmwtvM9ASXppF9cMKqr2WnfiPQ&s"
+    },
+    {
+      "degree": "BUT Métiers du Multimédia et de l'Internet",
+      "school": "IUT Marne-La-Vallée, Site de Meaux - Université Gustave Eiffel",
+      "description": "Parcours Développement Web et Dispositifs Interactifs",
+      "duration": "2023 - Aujourd'hui",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lAHaTBUGRFGqOk5sz27hZGuB21OAiJ9hz2W7M3garO6A=s900-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "degree": "Semestre d'échange à l'étranger",
+      "school": "Université du Québec à Chicoutimi (Canada)",
+      "description": "",
+      "duration": "Janvier 2025 - Mai 2025",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJsCNCqFgxJuhkN7SPtxxjW8PuPIURdHTkg&s"
+    }
+  ],
   "experience": [
     {
       "title": "Développeur en technologies immersives - Alternance",

@@ -30,6 +30,11 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#education">
+                  Parcours
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#skills">
                   Compétences
                 </a>
