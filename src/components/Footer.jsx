@@ -15,9 +15,9 @@ function Footer() {
               <i className="bi bi-linkedin footer-icon"></i>
               <span>LinkedIn</span>
             </a>
-            <a href="mailto:vincent.roure.cc@gmail.com" className="footer-link">
+            <a href="mailto:vincentroure.pro@gmail.com" className="footer-link">
               <i className="bi bi-envelope-fill footer-icon"></i>
-              <span>vincent.roure.cc@gmail.com</span>
+              <span>vincentroure.pro@gmail.com</span>
             </a>
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-2 text-md-center d-flex align-items-center justify-content-center">
