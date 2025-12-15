@@ -32,16 +32,12 @@ function App() {
           style={{ overflowY: "auto" }}
         >
           <div
-            className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-5"
+            className="flex-grow-1 d-flex justify-content-center align-items-center text-center p-3 p-md-5"
             style={{ position: "relative", zIndex: 10 }}
           >
-            <div>
-              <h1 className="pixel-text" style={{ fontSize: "4rem" }}>
-                {data.hero.name}
-              </h1>
-              <h2 className="mono-text" style={{ fontSize: "2.5rem" }}>
-                {data.hero.subtitle}
-              </h2>
+            <div className="text-center">
+              <h1 className="pixel-text hero-title">{data.hero.name}</h1>
+              <h2 className="mono-text hero-subtitle">{data.hero.subtitle}</h2>
             </div>
           </div>
           <div className="text-center pb-3">

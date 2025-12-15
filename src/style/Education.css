@@ -3,7 +3,8 @@
 .education-section {
   background: var(--color-bg-dark);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
   padding: 5rem 0;
   color: var(--color-white);
 }
@@ -233,29 +234,49 @@
 }
 
 /* Responsive */
-@media (max-width: 992px) {
-  .education-timeline {
-    gap: 2rem;
-    padding: 3rem 1rem;
-  }
-  
+/* Large tablets and small desktops */
+@media (max-width: 1200px) {
   .education-item {
-    min-width: 280px;
-    max-width: 280px;
-  }
-  
-  .timeline-line {
-    top: 70px;
+    min-width: 300px;
+    max-width: 300px;
   }
 }
 
+/* Tablets - Grille 2x2 */
+@media (max-width: 992px) {
+  .education-timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 3rem 1rem;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  
+  .education-item {
+    min-width: auto;
+    max-width: 100%;
+  }
+  
+  .timeline-line {
+    display: none;
+  }
+  
+  .marker-year {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+/* Mobile - 1 colonne */
 @media (max-width: 768px) {
   .education-section h2 {
     font-size: 2rem;
   }
   
   .education-timeline {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     gap: 3rem;
     padding: 2rem 1rem;
@@ -268,6 +289,7 @@
   .education-item {
     min-width: 100%;
     max-width: 400px;
+    justify-self: center;
   }
   
   .marker-dot {
