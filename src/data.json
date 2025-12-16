@@ -153,15 +153,15 @@
       "category": "Jeux vidéos",
       "image": "https://media.discordapp.net/attachments/1399473344985829539/1412083632780349602/image.jpg?ex=693f741d&is=693e229d&hm=1b1ff772e557a7b3218c36eb00b23655d1cf4275544f8c4db24d01062217d78f&=&format=webp&width=928&height=919",
       "github": "https://github.com/MatteoBaldinetti/Deuce-Striker",
-      "readme": ""
+      "readme": "https://github.com/MatteoBaldinetti/Deuce-Striker/blob/main/README.md"
     }, 
     {
       "title": "TXLFORMA",
       "description": "Projet de site de formation",
       "category": "Développement Web",
-      "image": "./smallLogo.webp",
+      "image": "https://cdn.discordapp.com/attachments/1435276675788046450/1435626666541191178/login_background.webp?ex=6942b485&is=69416305&hm=de4518e7eaac32b58df811a49c441dd7b1a007d2673d86ade24908ff2a160cdd&",
       "github": "https://github.com/MatteoBaldinetti/SAE-501_Synapse",
-      "readme": ""
+      "readme": "https://github.com/MatteoBaldinetti/SAE-501_Synapse/blob/main/README.md"
     }, 
     {
       "title": "UniNote",
@@ -169,7 +169,23 @@
       "category": "Développement Web",
       "image": "https://media.discordapp.net/attachments/1224984286902485122/1251161533963046912/Ret.png?ex=6940087b&is=693eb6fb&hm=8d4468f938f2ed15649217f7ff62e974a94cb8dd85be41df17c228774d89c9b2&=&format=webp&quality=lossless&width=1032&height=581",
       "github": "https://github.com/ZIK3Y/sae203",
-      "readme": ""
+      "readme": "https://github.com/ZIK3Y/sae203/blob/master/README.md"
+    },
+    {
+      "title": "SushiFast",
+      "description": "Projet de restaurant de Sushi avec React.",
+      "category": "Développement Web",
+      "image": "https://github.com/ZIK3Y/tp_sushi-fast/blob/main/public/assets/images/logo-sushifast.png?raw=true",
+      "github": "https://github.com/ZIK3Y/tp_sushi-fast",
+      "readme": "https://github.com/ZIK3Y/tp_sushi-fast/blob/main/README.md"
+    },
+    {
+      "title": "Pestisee",
+      "description": "Projet de site web de statistiques sur les étude de pesticides.",
+      "category": "Développement Web",
+      "image": "https://github.com/MatteoBaldinetti/SAE-301-303/blob/main/assets/img/logo_pestisee.png?raw=true",
+      "github": "https://github.com/MatteoBaldinetti/SAE-301-303",
+      "readme": "https://github.com/MatteoBaldinetti/SAE-301-303/blob/main/README.md"
     }
   ]
 }
