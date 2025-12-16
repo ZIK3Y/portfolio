@@ -152,21 +152,24 @@
       "description": "Jeu en réalité virtuelle de Tennis. (Prototype UQAC)",
       "category": "Jeux vidéos",
       "image": "https://media.discordapp.net/attachments/1399473344985829539/1412083632780349602/image.jpg?ex=693f741d&is=693e229d&hm=1b1ff772e557a7b3218c36eb00b23655d1cf4275544f8c4db24d01062217d78f&=&format=webp&width=928&height=919",
-      "link": "https://github.com/MatteoBaldinetti/Deuce-Striker"
+      "github": "https://github.com/MatteoBaldinetti/Deuce-Striker",
+      "readme": ""
     }, 
     {
       "title": "TXLFORMA",
       "description": "Projet de site de formation",
       "category": "Développement Web",
       "image": "./smallLogo.webp",
-      "link": "https://github.com/MatteoBaldinetti/SAE-501_Synapse"
+      "github": "https://github.com/MatteoBaldinetti/SAE-501_Synapse",
+      "readme": ""
     }, 
     {
       "title": "UniNote",
       "description": "Projet de site d'entrée des notes pour l'université.",
       "category": "Développement Web",
       "image": "https://media.discordapp.net/attachments/1224984286902485122/1251161533963046912/Ret.png?ex=6940087b&is=693eb6fb&hm=8d4468f938f2ed15649217f7ff62e974a94cb8dd85be41df17c228774d89c9b2&=&format=webp&quality=lossless&width=1032&height=581",
-      "link": "https://github.com/ZIK3Y/sae203"
+      "github": "https://github.com/ZIK3Y/sae203",
+      "readme": ""
     }
   ]
 }
