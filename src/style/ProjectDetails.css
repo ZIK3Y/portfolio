@@ -130,6 +130,7 @@
   margin-bottom: 30px;
   text-align: justify;
   letter-spacing: 0.02em;
+  white-space: pre-line;
 }
 
 /* Section des compétences */

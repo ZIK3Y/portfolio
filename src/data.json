@@ -55,6 +55,11 @@
       "title": "TypeScript"
     },
     {
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "category": "Développement Web",
+      "title": "Java"
+    },
+    {
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "category": "Développement Web",
       "title": "React"
@@ -150,7 +155,7 @@
     {
       "title": "Deuce Striker",
       "subtitle": "Jeu en réalité virtuelle de Tennis. (Prototype UQAC)",
-      "description": "Deuce Striker est un jeu de tennis en réalité virtuelle développé comme prototype à l'UQAC. Le projet explore les mécaniques de jeu immersives en VR, offrant une expérience de tennis réaliste avec des contrôles intuitifs et une physique précise. Développé avec Unreal Engine 5, ce projet met l'accent sur l'interaction naturelle et l'immersion du joueur.",
+      "description": "Deuce Striker est un jeu de tennis en réalité virtuelle développé comme prototype à l'UQAC. Le projet explore les capacités de Unity et OpenXR pour proposer une expérience immersive et agréable pour les joueurs. Le jeu permet de frapper une balle contre des cibles et accumuler des points dans un temps imparti. J'ai adoré faire ce projet car c'est mon vrai premier projet sous Unity et j'ai beaucoup appris sur le développement XR. \n \n Mon rôle dans ce projet, c'était de m'occuper de tout ce qui touchait le moteur de jeu de près ou de loin. Je m'occupais donc d'écrire les scripts et d'importer les assets dans la scène. \n \n J'ai rencontré beaucoup de difficulté notamment au niveau de la physique de la balle et les effets de la raquette qui étaient extrêmement compliqué à gérer pour avoir un résultat à la fois satisfaisant et précis. \n \n J'ai beaucoup appris sur Unity grâce à ce projet, il m'est très utile pour mon alternance où je manipule de la réalité virtuelle tous les jours.",
       "category": "Jeux vidéos",
       "image": "https://media.discordapp.net/attachments/1399473344985829539/1412083632780349602/image.jpg?ex=693f741d&is=693e229d&hm=1b1ff772e557a7b3218c36eb00b23655d1cf4275544f8c4db24d01062217d78f&=&format=webp&width=928&height=919",
       "link": "https://github.com/MatteoBaldinetti/Deuce-Striker",
@@ -159,16 +164,16 @@
     {
       "title": "TXLFORMA",
       "subtitle": "Projet de site de formation",
-      "description": "TXLFORMA est une plateforme complète de formation en ligne développée avec React et Spring Boot. Le projet inclut un système de gestion des cours, des utilisateurs, et des paiements. L'interface utilisateur moderne offre une expérience fluide pour les apprenants et les formateurs, avec un tableau de bord administrateur complet pour la gestion du contenu.",
+      "description": "TXLFORMA est une plateforme complète de formation en ligne développée avec React et Spring Boot. Le projet inclut un système de gestion des cours, des utilisateurs, et des paiements. L'interface utilisateur moderne offre une expérience fluide pour les apprenants et les formateurs, avec un tableau de bord administrateur et enseignant complet pour la gestion du contenu. \n \n J'ai fait plusieurs choses dans ce projet : j'ai aidé sur la conception de l'API en Java avec Spring Boot. J'ai ensuite travaillé sur le Front avec ReactJS et Bootstrap où j'ai appris énormément de choses car j'ai eu la chance de travailler avec Mattéo B. qui a beaucoup d'expérience avec ce Framework. J'étais également en charge de la gestion de projet avec avec un simple tableur Google Sheets mais qui permettais de tous condenser en un seul fichier au lieu de multiplier les technologies.\n \n Ce projet a été pour moi l'occasion de me réconscillier avec le développement Full-Stack et de mettre à profit mes compétences en tenue de projet.",
       "category": "Développement Web",
       "image": "https://cdn.discordapp.com/attachments/1435276675788046450/1435626666541191178/login_background.webp?ex=6942b485&is=69416305&hm=de4518e7eaac32b58df811a49c441dd7b1a007d2673d86ade24908ff2a160cdd&",
       "link": "https://github.com/MatteoBaldinetti/SAE-501_Synapse",
-      "skills": ["React", "JavaScript", "Spring Boot", "SQL", "Figma"]
+      "skills": ["React", "JavaScript", "Spring Boot", "Java"]
     }, 
     {
       "title": "UniNote",
       "subtitle": "Projet de site d'entrée des notes pour l'université.",
-      "description": "UniNote est une application web conçue pour faciliter la gestion et la saisie des notes universitaires. Le système permet aux enseignants de saisir les notes, aux étudiants de consulter leurs résultats, et aux administrateurs de gérer l'ensemble du processus. Développé avec une architecture moderne, le projet met l'accent sur la sécurité et la facilité d'utilisation.",
+      "description": "UniNote est une application web conçue pour faciliter la gestion et la saisie des notes universitaires. Le système permet aux enseignants de saisir les notes, aux étudiants de consulter leurs résultats, et aux administrateurs de gérer l'ensemble du processus. Ce projet de première année a été conçu avec des technologies simples : HTML, CSS, JS et PHP. Il est très important pour moi car c'est celui qui m'a permis de réalisé que j'allais devoir énormément apprendre par moi même pour pouvoir progresser. \n \n Mon rôle dans ce projet a été de gérer tous le back du site, que ce soit de la conception de la base de donnée, à récupérer et ordonner les données. \n \n Ce projet a été très dur au départ car j'avais peu de connaissances en Back-end, j'avais déjà une bonne maitrise de SQL mais je connaissais pas grand chose en PHP et on avait pas eu beaucoup de cours dessus à ce moment là. En plus de développer j'ai du me documenter avec toutes les ressources que je trouvaient pour pouvoir assurer un travail de qualité.",
       "category": "Développement Web",
       "image": "https://media.discordapp.net/attachments/1224984286902485122/1251161533963046912/Ret.png?ex=6940087b&is=693eb6fb&hm=8d4468f938f2ed15649217f7ff62e974a94cb8dd85be41df17c228774d89c9b2&=&format=webp&quality=lossless&width=1032&height=581",
       "link": "https://github.com/ZIK3Y/sae203",
