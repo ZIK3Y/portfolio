@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import ProjectDetails from "./ProjectDetails";
 
-function Projects({ data }) {
+function Projects({ data, allSkills }) {
   const [filter, setFilter] = useState("All");
+  const [selectedProject, setSelectedProject] = useState(null);
   const categories = ["All", ...new Set(data.map((p) => p.category))];
 
   const filteredProjects =
@@ -39,13 +41,17 @@ function Projects({ data }) {
                         : "220px",
                     objectFit: "cover",
                   }}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "/default_project.png";
+                  }}
                 />
                 <div className="card-body gap">
                   <h5 className="card-title">{project.title}</h5>
-                  <p className="card-text">{project.description}</p>
+                  <p className="card-text">{project.subtitle}</p>
                   <div className="d-flex justify-content-center gap-2">
                     <a
-                      href={project.github}
+                      href={project.link}
                       className="btn btn-secondary btn-sm"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -60,15 +66,13 @@ function Projects({ data }) {
                         }}
                       />
                     </a>
-                    <a
-                      href={project.readme}
+                    <button
                       className="btn btn-secondary btn-sm"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      onClick={() => setSelectedProject(project)}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       Détails
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -76,6 +80,15 @@ function Projects({ data }) {
           ))}
         </div>
       </div>
+
+      {/* Modal pour afficher les détails du projet */}
+      {selectedProject && (
+        <ProjectDetails
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+          allSkills={allSkills}
+        />
+      )}
     </section>
   );
 }

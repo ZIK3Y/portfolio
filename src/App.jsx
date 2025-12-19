@@ -48,7 +48,7 @@ function App() {
         <Education data={data.education} />
         <Skills data={data.skills} />
         <Experience data={data.experience} />
-        <Projects data={data.projects} />
+        <Projects data={data.projects} allSkills={data.skills} />
         <Footer />
       </div>
     </>
