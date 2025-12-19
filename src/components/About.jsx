@@ -1,5 +1,5 @@
-import React from 'react';
-import '../style/About.css';
+import React from "react";
+import "../style/About.css";
 
 function About({ data }) {
   return (
@@ -14,7 +14,12 @@ function About({ data }) {
           </div>
           <div className="col-md-4 order-md-2 order-1 mb-4 mb-md-0">
             <div className="about-photo-frame">
-              <img src="/photo_real.png" alt="Photo" className="img-fluid" />
+              <img
+                src="/photo_real.png"
+                alt="Photo"
+                className="img-fluid"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

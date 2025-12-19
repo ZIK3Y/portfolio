@@ -32,6 +32,7 @@ function ProjectDetails({ project, onClose, allSkills }) {
             src={project.image}
             alt={project.title}
             className="modal-image"
+            loading="lazy"
             onError={(e) => {
               e.target.onerror = null;
               e.target.src = "/default_project.png";
@@ -57,6 +58,7 @@ function ProjectDetails({ project, onClose, allSkills }) {
                       src={skill.icon}
                       alt={skill.title}
                       className="modal-skill-icon"
+                      loading="lazy"
                       style={{
                         filter: skill.title.toLowerCase().includes("unreal")
                           ? "invert(1)"

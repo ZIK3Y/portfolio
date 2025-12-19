@@ -28,6 +28,7 @@ function Skills({ data }) {
                       src={skill.icon}
                       alt={skill.title}
                       className="me-3"
+                      loading="lazy"
                       style={{
                         width: "30px",
                         height: "30px",

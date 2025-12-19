@@ -1,10 +1,6 @@
+import { lazy, Suspense } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import About from "./components/About";
-import Education from "./components/Education";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import data from "./data.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -12,12 +8,28 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./style/PixelArt.css";
 import "./App.css";
 
+// Lazy loading des composants pour améliorer les performances
+const About = lazy(() => import("./components/About"));
+const Education = lazy(() => import("./components/Education"));
+const Skills = lazy(() => import("./components/Skills"));
+const Experience = lazy(() => import("./components/Experience"));
+const Projects = lazy(() => import("./components/Projects"));
+
+// Composant de chargement simple
+const LoadingFallback = () => (
+  <div className="text-center py-5">
+    <div className="spinner-border text-white" role="status">
+      <span className="visually-hidden">Chargement...</span>
+    </div>
+  </div>
+);
+
 function App() {
   return (
     <>
-      {/* Rain Effect */}
+      {/* Rain Effect - Réduit pour mobile */}
       <div className="rain-container">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(window.innerWidth < 768 ? 10 : 20)].map((_, i) => (
           <div key={i} className="rain"></div>
         ))}
       </div>
@@ -44,11 +56,15 @@ function App() {
             <i className="bi bi-chevron-down scroll-indicator blink"></i>
           </div>
         </div>
-        <About data={data.about} />
-        <Education data={data.education} />
-        <Skills data={data.skills} />
-        <Experience data={data.experience} />
-        <Projects data={data.projects} allSkills={data.skills} />
+
+        <Suspense fallback={<LoadingFallback />}>
+          <About data={data.about} />
+          <Education data={data.education} />
+          <Skills data={data.skills} />
+          <Experience data={data.experience} />
+          <Projects data={data.projects} allSkills={data.skills} />
+        </Suspense>
+
         <Footer />
       </div>
     </>

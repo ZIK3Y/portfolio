@@ -2,8 +2,8 @@
    PIXEL ART - NOIR ET BLANC DESIGN SYSTEM
    ============================================ */
 
-/* Import Google Fonts - Pixel Art Style */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+/* Fonts are loaded in index.html with preconnect for better performance */
+
 
 :root {
   /* ===== TYPOGRAPHY ===== */
@@ -304,4 +304,42 @@
 /* Glitch Effect */
 .glitch {
   animation: glitch 0.3s infinite;
+}
+
+/* ===== OPTIMISATIONS MOBILE ===== */
+@media (max-width: 768px) {
+  /* Désactiver les effets gourmands sur mobile */
+  .scanlines {
+    display: none;
+  }
+  
+  .crt-effect::before {
+    display: none;
+  }
+  
+  /* Réduire l'opacité de la pluie pour améliorer les performances */
+  .rain {
+    opacity: 0.5;
+  }
+  
+  /* Simplifier les animations */
+  * {
+    animation-duration: 0.2s !important;
+  }
+}
+
+/* Préférence utilisateur pour les animations réduites */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .rain-container,
+  .scanlines {
+    display: none;
+  }
 }

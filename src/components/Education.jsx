@@ -24,6 +24,7 @@ function Education({ data }) {
                     src={edu.logo}
                     alt={edu.school}
                     className="school-logo ms-3 mt-3"
+                    loading="lazy"
                   />
                 </div>
                 <div className="card-body p-3">

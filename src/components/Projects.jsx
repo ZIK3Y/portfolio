@@ -32,6 +32,7 @@ function Projects({ data, allSkills }) {
                   src={project.image}
                   className="card-img-top"
                   alt={project.title}
+                  loading="lazy"
                   style={{
                     height:
                       index % 3 === 0
