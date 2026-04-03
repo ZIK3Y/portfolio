@@ -1,0 +1,71 @@
+/* ===== PROJECTS SECTION - KINGDOM HEARTS CoM / MEMORY'S SKYSCRAPER ===== */
+
+.projects-section {
+  background: linear-gradient(180deg, #0D0019 0%, #0A001A 100%);
+  border-top: 3px solid var(--kh-gold) !important;
+}
+
+.projects-section h2 {
+  color: var(--kh-gold) !important;
+  text-shadow: 3px 3px 0 var(--kh-gold-dark), 0 0 20px var(--kh-glow) !important;
+  width: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.projects-section h2::after {
+  background: var(--kh-gold) !important;
+}
+
+/* Category filter KH style */
+.projects-section .category-filter {
+  background: var(--kh-dark);
+  border-color: var(--kh-purple);
+  color: var(--kh-purple-light);
+}
+
+.projects-section .category-filter:hover {
+  border-color: var(--kh-gold);
+  color: var(--kh-gold);
+}
+
+.projects-section .category-filter.active {
+  background: var(--kh-purple);
+  border-color: var(--kh-gold);
+  color: var(--kh-gold);
+  box-shadow: 3px 3px 0 var(--kh-gold-dark), 0 0 10px var(--kh-glow);
+}
+
+/* Project card - style carte KH */
+.project-card {
+  background: linear-gradient(160deg, #100020 0%, #1A0033 100%);
+  border: 2px solid var(--kh-purple) !important;
+  border-top: 3px solid var(--project-color, var(--kh-purple)) !important;
+  box-shadow: 4px 4px 0 #1A0033, 0 0 12px rgba(124, 77, 255, 0.3) !important;
+  transition: all 0.2s steps(8);
+}
+
+.project-card:hover {
+  transform: translate(2px, 2px);
+  border-color: var(--project-color, var(--kh-gold)) !important;
+  box-shadow: 2px 2px 0 #1A0033, 0 0 20px rgba(124, 77, 255, 0.5) !important;
+}
+
+.project-card .card-title {
+  color: var(--color-white);
+}
+
+.project-card .card-text {
+  color: var(--kh-purple-light);
+}
+
+.project-card .btn-secondary {
+  background: var(--kh-dark);
+  border-color: var(--kh-purple);
+  color: var(--kh-purple-light);
+}
+
+.project-card .btn-secondary:hover {
+  background: var(--kh-purple);
+  border-color: var(--kh-gold);
+  color: var(--kh-gold);
+}
